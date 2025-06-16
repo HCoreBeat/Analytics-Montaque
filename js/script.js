@@ -221,11 +221,15 @@ class SalesDashboard {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             this.orders = await response.json();
-            
             if (!Array.isArray(this.orders)) {
                 throw new Error('Invalid data: not an array');
             }
-            
+            // Ordenar los pedidos por fecha descendente (más reciente primero)
+            this.orders.sort((a, b) => {
+                const dateA = new Date(a.fecha_hora_entrada);
+                const dateB = new Date(b.fecha_hora_entrada);
+                return dateB - dateA;
+            });
             this.normalizeData();
             this.filteredOrders = [...this.orders];
         } catch (error) {
@@ -936,7 +940,7 @@ class SalesDashboard {
                             ${order.fuente_trafico ? `
                             <div class="meta-item">
                                 <i class="fas fa-globe"></i>
-                                Fuente Tráfico: <a href="${order.fuente_trafico}" target="_blank" style="color: inherit; text-decoration: underline;">${new URL(order.fuente_trafico).hostname}</a>
+                                Fuente Tráfico: ${/^https?:\/\//.test(order.fuente_trafico) ? `<a href="${order.fuente_trafico}" target="_blank" style="color: inherit; text-decoration: underline;">${new URL(order.fuente_trafico).hostname}</a>` : order.fuente_trafico}
                             </div>
                             ` : ''}
                         </div>
