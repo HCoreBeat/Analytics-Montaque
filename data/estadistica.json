@@ -1,41 +1,92 @@
 [
     {
-    "ip": "198.71.52.107",
-    "pais": "United States",
-    "fecha_hora_entrada": "2025-06-12 12:32:05",
-    "origen": "https://www.montaqueshops.com/",
-    "afiliado": "Ninguno",
-    "duracion_sesion_segundos": 0,
-    "tiempo_carga_pagina_ms": 0,
-    "nombre_comprador": "Test",
-    "telefono_comprador": "123456789",
-    "correo_comprador": "test@test.com",
-    "direccion_envio": "Test",
-    "compras": [
-      {
-        "id": null,
-        "name": "Aceite de Soya",
-        "type": "product",
-        "quantity": 1,
-        "unitPrice": 3.95,
-        "discount": 0,
-        "items": null
-      },
-      {
-        "id": null,
-        "name": "Arroz brasileño",
-        "type": "product",
-        "quantity": 1,
-        "unitPrice": 2.8,
-        "discount": 20,
-        "items": null
-      }
-    ],
-    "precio_compra_total": "6.75",
-    "navegador": "Chrome",
-    "sistema_operativo": "Linux",
-    "tipo_usuario": "Único",
-    "tiempo_promedio_pagina": 0,
-    "fuente_trafico": "https://www.google.com/"
-  }
+        "ip": "2600:387:f:6417::2",
+        "pais": "United States",
+        "fecha_hora_entrada": "2025-06-16 15:53:01",
+        "origen": "https://www.montaqueshops.com/#Carne%20de%20obejo",
+        "afiliado": "Ninguno",
+        "duracion_sesion_segundos": 0,
+        "tiempo_carga_pagina_ms": 0,
+        "nombre_comprador": "Sonia",
+        "telefono_comprador": "54156537",
+        "correo_comprador": "yarilabrada135@gmail.com",
+        "direccion_envio": "3900 Eisenhauer Rd",
+        "compras": [
+          {
+            "id": null,
+            "name": "Carne de obejo",
+            "type": "product",
+            "quantity": 1,
+            "unitPrice": 20.9,
+            "discount": 0,
+            "items": null
+          }
+        ],
+        "precio_compra_total": "20.90",
+        "navegador": "Safari",
+        "sistema_operativo": "MacOS",
+        "tipo_usuario": "Recurrente",
+        "tiempo_promedio_pagina": 0,
+        "fuente_trafico": "Directo"
+    },
+    {
+        "ip": "2600:387:f:6417::2",
+        "pais": "United States",
+        "fecha_hora_entrada": "2025-06-16 15:54:39",
+        "origen": "https://www.montaqueshops.com/#Carne%20de%20obejo",
+        "afiliado": "Ninguno",
+        "duracion_sesion_segundos": 0,
+        "tiempo_carga_pagina_ms": 0,
+        "nombre_comprador": "Sonia",
+        "telefono_comprador": "51156534",
+        "correo_comprador": "yarilabrada135@gmail.com",
+        "direccion_envio": "Calle 44 # 3 A",
+        "compras": [
+          {
+            "id": null,
+            "name": "Carne de obejo",
+            "type": "product",
+            "quantity": 1,
+            "unitPrice": 20.9,
+            "discount": 0,
+            "items": null
+          }
+        ],
+        "precio_compra_total": "20.90",
+        "navegador": "Safari",
+        "sistema_operativo": "MacOS",
+        "tipo_usuario": "Recurrente",
+        "tiempo_promedio_pagina": 0,
+        "fuente_trafico": "Directo"
+    },
+    {
+        "ip": "2600:100c:b060:4889:142b:a651:d88a:e25",
+        "pais": "United States",
+        "fecha_hora_entrada": "2025-06-16 16:00:06",
+        "origen": "https://www.montaqueshops.com/",
+        "afiliado": "Ninguno",
+        "duracion_sesion_segundos": 0,
+        "tiempo_carga_pagina_ms": 0,
+        "nombre_comprador": "Ismaela velera",
+        "telefono_comprador": "3134 5294",
+        "correo_comprador": "alberto.gonzalez1678@icloud.com",
+        "direccion_envio": "Calle cucalambe 44 entre  wualdemar día  reparto primero",
+        "compras": [
+            {
+            "id": null,
+            "name": "Caja de Malta bucanero",
+            "type": "product",
+            "quantity": 1,
+            "unitPrice": 23.9,
+            "discount": 0,
+            "items": null
+            }
+        ],
+        "precio_compra_total": "23.90",
+        "navegador": "Safari",
+        "sistema_operativo": "MacOS",
+        "tipo_usuario": "Recurrente",
+        "tiempo_promedio_pagina": 0,
+        "fuente_trafico": "Directo"
+    }
 ]
