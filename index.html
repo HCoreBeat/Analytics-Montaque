@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Dashboard Analítico</title>
+
+    <!-- Favicons -->
+    <link rel="icon" href="img/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts for Inter (modern font) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <i class="fas fa-chart-network"></i>
+                <span>Panel Analítico</span>
+            </div>
+            <button class="close-menu"><i class="fas fa-times"></i></button>
+        </div>
+        
+        <div class="menu-items">
+            <button class="menu-item active" data-view="dashboard">
+                <i class="fas fa-chart-pie"></i>
+                <span>Dashboard</span>
+            </button>
+        </div>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label><i class="fas fa-calendar-alt"></i> Periodo</label>
+                <select id="filter-period" class="select-modern">
+                    <option value="month">Este Mes</option>
+                    <option value="last-month">Mes Pasado</option>
+                    <option value="year">Este Año</option>
+                    <option value="all">Todos</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label><i class="fas fa-calendar-week"></i> Rango de Fechas</label>
+                <div class="date-range">
+                    <input type="date" id="filter-date-start" class="input-modern">
+                    <span>a</span>
+                    <input type="date" id="filter-date-end" class="input-modern">
+                </div>
+            </div>
+            <div class="filter-group">
+                <label><i class="fas fa-flag"></i> País</label>
+                <select id="filter-country" class="select-modern"></select>
+            </div>
+        </div>
+    </nav>
+
+    <main class="content">
+        <!-- Vista Dashboard -->
+        <div id="dashboard-view" class="view-content">
+            <header class="main-header">
+                <div class="header-top">
+                    <button class="menu-toggle"><i class="fas fa-bars"></i> Menú</button>
+                    <div class="search-bar">
+                        <input type="text" id="search-orders" placeholder="Buscar en pedidos..." class="input-modern">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                    
+                    <div class="header-actions">
+                        <button class="btn btn-primary-modern btn-export">
+                            <i class="fas fa-download"></i> Exportar
+                        </button>
+                        <button class="btn btn-primary-modern" id="refresh-data">
+                            <i class="fas fa-sync-alt"></i> Actualizar
+                        </button>
+                    </div>
+                </div>
+                <div class="header-main">
+                    <div class="header-stats">
+                        <div class="stat-card primary">
+                            <i class="fas fa-chart-pie"></i>
+                            <div class="stat-content">
+                                <span class="stat-value" id="total-orders">0</span>
+                                <span class="stat-label">Pedidos Totales</span>
+                            </div>
+                            <div class="currency-panel euro">
+                                <span class="stat-value" id="total-sales">€0</span>
+                                <span class="stat-label">Ventas Totales</span>
+                            </div>
+                        </div>
+                        <div class="stat-card accent">
+                            <i class="fas fa-coins"></i>
+                            <div class="stat-content">
+                                <div class="dual-currency">
+                                    <div class="currency-panel dollar">
+                                        <span class="stat-value" id="total-sales-usd">$0</span>
+                                        <span class="stat-label">Ventas (USD)</span>
+                                    </div>
+                                    <div class="currency-panel euro">
+                                        <span class="stat-value" id="total-sales-eur">€0</span>
+                                        <span class="stat-label">Ventas (EUR)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-cube"></i>
+                            <div class="stat-content">
+                                <span class="stat-value" id="total-products">0</span>
+                                <span class="stat-label">Productos Vendidos</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-users"></i>
+                            <div class="stat-content">
+                                <span class="stat-value" id="unique-customers">0</span>
+                                <span class="stat-label">Clientes Únicos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="dashboard-grid">
+                <div class="insights-grid">
+                    <div class="card summary-card">
+                        <h3 class="card-title"><i class="fas fa-chart-bar"></i> Resumen General</h3>
+                        <div class="summary-grid" id="general-summary"></div>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="card-title"><i class="fas fa-calendar-alt"></i> Resumen Semanal</h3>
+                        <div class="summary-grid" id="weekly-summary"></div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 class="card-title"><i class="fas fa-globe-americas"></i> Distribución por Países</h3>
+                        <div class="chart-container">
+                            <canvas id="country-chart" width="300" height="200"></canvas>
+                        </div>
+                        <div class="ranking-list compact" id="country-distribution"></div>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="card-title"><i class="fas fa-star"></i> Top Productos</h3>
+                        <div class="chart-container">
+                            <canvas id="products-chart" width="300" height="200"></canvas>
+                        </div>
+                        <div class="ranking-list compact" id="top-products"></div>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="card-title"><i class="fas fa-chart-line"></i> Tendencias de Ventas</h3>
+                        <div class="chart-container">
+                            <canvas id="sales-trend-chart" width="300" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card full-width transactions-card">
+                    <div class="card-header-with-tabs">
+                        <h3 class="card-title"><i class="fas fa-exchange-alt"></i> Transacciones Recientes</h3>
+                    </div>
+                    <div id="orders-list" class="orders-container"></div>
+                    <div id="no-sales-message" class="no-data-message hidden">
+                        <i class="fas fa-info-circle"></i> No hay ventas disponibles para el periodo seleccionado.
+                    </div>
+                </div>
+            </section>
+        </div>  
+
+        <footer class="main-footer">
+            <div class="footer-content">
+                <span class="footer-text">© 2025 Panel Analítico Montaque · v1.1.0</span>
+                <div class="footer-links">
+                    <a href="#"><i class="fas fa-book"></i> Creado por H.A</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
