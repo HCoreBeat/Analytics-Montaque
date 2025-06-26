@@ -352,46 +352,5 @@
   "tipo_usuario": "Recurrente",
   "tiempo_promedio_pagina": 0,
   "fuente_trafico": "Directo"
-},
-{
-  "ip": "54.87.115.148",
-  "pais": "United States",
-  "fecha_hora_entrada": "2025-06-25 12:14:29",
-  "origen": "https://www.montaqueshops.com/",
-  "afiliado": "Ninguno",
-  "duracion_sesion_segundos": 0,
-  "tiempo_carga_pagina_ms": 0,
-  "nombre_comprador": "Mariannys Santana",
-  "telefono_comprador": "55833806",
-  "correo_comprador": "marysm9108@gmail.com",
-  "direccion_envio": "Edif 8 Apto E-1 Buena Vista",
-  "compras": [
-    {
-      "id": "pack_Combo_express_7",
-      "name": "Combo express 7",
-      "type": "pack",
-      "quantity": 1,
-      "unitPrice": 74.9,
-      "discount": 0,
-      "items": [
-        "x7 lb de cerdo",
-        "x3 lb de ovejo",
-        "x2 lb de pollo",
-        "x1 Paquete de leche polvo",
-        "x1 Fil de huevo",
-        "x2 cafés",
-        "x1 aceite (900 ml)",
-        "x2 kg de arroz",
-        "x2 goyas",
-        "x2 Jabones"
-      ]
-    }
-  ],
-  "precio_compra_total": "74.90",
-  "navegador": "Chrome",
-  "sistema_operativo": "Windows",
-  "tipo_usuario": "Recurrente",
-  "tiempo_promedio_pagina": 0,
-  "fuente_trafico": "Directo"
 }
 ]
