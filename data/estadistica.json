@@ -352,5 +352,35 @@
   "tipo_usuario": "Recurrente",
   "tiempo_promedio_pagina": 0,
   "fuente_trafico": "Directo"
+},
+{
+  "ip": "2600:387:f:6417::5",
+  "pais": "United States",
+  "fecha_hora_entrada": "2025-06-27 16:07:15",
+  "origen": "https://www.montaqueshops.com/",
+  "afiliado": "Ninguno",
+  "duracion_sesion_segundos": 0,
+  "tiempo_carga_pagina_ms": 0,
+  "nombre_comprador": "Yaris",
+  "telefono_comprador": "2102371130",
+  "correo_comprador": "yarilabrada135@gmail.com",
+  "direccion_envio": "3900 Eisenhauer Rd",
+  "compras": [
+    {
+      "id": null,
+      "name": "Carne de obejo",
+      "type": "product",
+      "quantity": 2,
+      "unitPrice": 20.9,
+      "discount": 0,
+      "items": null
+    }
+  ],
+  "precio_compra_total": "41.80",
+  "navegador": "Safari",
+  "sistema_operativo": "MacOS",
+  "tipo_usuario": "Recurrente",
+  "tiempo_promedio_pagina": 0,
+  "fuente_trafico": "Directo"
 }
 ]
