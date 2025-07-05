@@ -382,5 +382,125 @@
   "tipo_usuario": "Recurrente",
   "tiempo_promedio_pagina": 0,
   "fuente_trafico": "Directo"
+},
+{
+  "ip": "2601:589:517e:b910:3a0a:4e61:fdd5:e63b",
+  "pais": "United States",
+  "fecha_hora_entrada": "2025-07-05 09:52:03",
+  "origen": "https://www.montaqueshops.com/",
+  "afiliado": "Ninguno",
+  "duracion_sesion_segundos": 0,
+  "tiempo_carga_pagina_ms": 0,
+  "nombre_comprador": "Alicia Matos Matos",
+  "telefono_comprador": "54419298",
+  "correo_comprador": "sarisleyfernandez@gmail.com",
+  "direccion_envio": "LA Victoria las tunas",
+  "compras": [
+    {
+      "id": null,
+      "name": "Huevo",
+      "type": "product",
+      "quantity": 2,
+      "unitPrice": 9.990499999999999,
+      "discount": 23.15,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Pollo Country Pride Leg Quarters",
+      "type": "product",
+      "quantity": 1,
+      "unitPrice": 14.9,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Aceite de Soya",
+      "type": "product",
+      "quantity": 3,
+      "unitPrice": 3.95,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Picadillo Especial La Favorita 400g",
+      "type": "product",
+      "quantity": 5,
+      "unitPrice": 1.6,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": "group_Caja_de_Jugo_Lovely",
+      "name": "Caja de Jugo Lovely (Mango)",
+      "type": "variant",
+      "quantity": 1,
+      "unitPrice": 17.9,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Leche en polvo entera Capri (1kg)",
+      "type": "product",
+      "quantity": 2,
+      "unitPrice": 10.99,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Detergente STB Multiusos 1kg",
+      "type": "product",
+      "quantity": 2,
+      "unitPrice": 3.99,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Frijoles negro",
+      "type": "product",
+      "quantity": 5,
+      "unitPrice": 2.1,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Pasta de Tomate Risol 400g",
+      "type": "product",
+      "quantity": 2,
+      "unitPrice": 1.9,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Espagueti",
+      "type": "product",
+      "quantity": 2,
+      "unitPrice": 1.9,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Azúcar 1kg",
+      "type": "product",
+      "quantity": 5,
+      "unitPrice": 2.1,
+      "discount": 0,
+      "items": null
+    }
+  ],
+  "precio_compra_total": "131.19",
+  "navegador": "Samsung Browser",
+  "sistema_operativo": "Linux",
+  "tipo_usuario": "Recurrente",
+  "tiempo_promedio_pagina": 0,
+  "fuente_trafico": "Directo"
 }
 ]
