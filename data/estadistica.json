@@ -568,5 +568,57 @@
   "tipo_usuario": "Recurrente",
   "tiempo_promedio_pagina": 0,
   "fuente_trafico": "Directo"
+},
+{
+  "ip": "2607:fb90:bea0:870a:fb49:4816:2274:79e3",
+  "pais": "United States",
+  "fecha_hora_entrada": "2025-07-10 10:36:41",
+  "origen": "https://www.montaqueshops.com/#Combo%20est%C3%A1ndar",
+  "afiliado": "Ninguno",
+  "duracion_sesion_segundos": 0,
+  "tiempo_carga_pagina_ms": 0,
+  "nombre_comprador": "Yacnara Mondol Reyes",
+  "telefono_comprador": "9045661994",
+  "correo_comprador": "yannaramondol86@yahoo.com",
+  "direccion_envio": "6514 Swallow cove Rd",
+  "compras": [
+    {
+      "id": "pack_Combo_estándar",
+      "name": "Combo estándar",
+      "type": "pack",
+      "quantity": 1,
+      "unitPrice": 119.9,
+      "discount": 0,
+      "items": [
+        "x20 Libras de carne de cerdo",
+        "x6 Libras de ovejo",
+        "x3 Libras de jamón",
+        "x3 Libras de pollo",
+        "x1 Libra de Picadillo de pollo",
+        "x2 Kg de arroz importado",
+        "x2 Libras de frijoles colorado",
+        "x1 Paquete de Spaghetti de 500g",
+        "x1 Paquete de codito de 500g",
+        "x1 Lata de Pasta de Tomate",
+        "x1 Lt de Vinagre original sellado",
+        "x3 Pastillas de Res 120g",
+        "x2 Pastillas de pollo",
+        "x2 Sazón Goya 5g",
+        "x1 Lata de leche condensada",
+        "x5 Paquetes de refresco Frutti 2L",
+        "x2 Latas de Malta",
+        "x1 Jabón de baño 90g",
+        "x1 Paquete de Papel Sanitario",
+        "x1 Paquete de detergente Multiuso de 500g",
+        "x1 Pomo de aceite 900ml"
+      ]
+    }
+  ],
+  "precio_compra_total": "119.90",
+  "navegador": "Chrome",
+  "sistema_operativo": "Linux",
+  "tipo_usuario": "Recurrente",
+  "tiempo_promedio_pagina": 0,
+  "fuente_trafico": "Directo"
 }
 ]
