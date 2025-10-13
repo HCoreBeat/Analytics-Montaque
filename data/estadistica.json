@@ -716,5 +716,53 @@
   "tipo_usuario": "Recurrente",
   "tiempo_promedio_pagina": 0,
   "fuente_trafico": "Directo"
+},
+{
+  "ip": "2601:589:4802:7610:2191:21f1:ddc2:3b90",
+  "pais": "United States",
+  "fecha_hora_entrada": "2025-10-13 11:40:28",
+  "origen": "https://www.montaqueshops.com/",
+  "afiliado": "Ninguno",
+  "duracion_sesion_segundos": 0,
+  "tiempo_carga_pagina_ms": 0,
+  "nombre_comprador": "Elisandra (Nombre de persona a entregar: Lianet cruz)",
+  "telefono_comprador": "9545526723",
+  "correo_comprador": "elisandracruzgonzalez@yahoo.com",
+  "direccion_envio": "H.consepcion#13 alto entre carretera central y Reinaldo Bermúdez la victoria",
+  "compras": [
+    {
+      "id": null,
+      "name": "Leche en polvo entera Capri (1kg)",
+      "type": "product",
+      "quantity": 2,
+      "unitPrice": 10.99,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Helado",
+      "type": "product",
+      "quantity": 1,
+      "unitPrice": 7.9,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Galletas Marie",
+      "type": "product",
+      "quantity": 4,
+      "unitPrice": 1.2,
+      "discount": 0,
+      "items": null
+    }
+  ],
+  "precio_compra_total": "34.68",
+  "navegador": "Safari",
+  "sistema_operativo": "MacOS",
+  "tipo_usuario": "Recurrente",
+  "tiempo_promedio_pagina": 0,
+  "fuente_trafico": "Directo"
 }
 ]
