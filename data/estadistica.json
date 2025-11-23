@@ -764,5 +764,35 @@
   "tipo_usuario": "Recurrente",
   "tiempo_promedio_pagina": 0,
   "fuente_trafico": "Directo"
+},
+{
+  "ip": "2600:100c:b328:2fc8:1cd5:f02f:b04f:8cfd",
+  "pais": "United States",
+  "fecha_hora_entrada": "2025-11-22 12:38:28",
+  "origen": "https://www.montaqueshops.com/",
+  "afiliado": "Ninguno",
+  "duracion_sesion_segundos": 0,
+  "tiempo_carga_pagina_ms": 0,
+  "nombre_comprador": "Luis Angel Pupo Infante (Nombre de persona a entregar: Mireya Velazquez Hernandez)",
+  "telefono_comprador": "2146088825",
+  "correo_comprador": "luisangelpupo1989@gmail.com",
+  "direccion_envio": "Edificio 39 Apto A1%LEONARDO GAMBOA Y AQUILES ESPINASA",
+  "compras": [
+    {
+      "id": "group_Pernil_de_cerdo",
+      "name": "Pernil de cerdo (15lb)",
+      "type": "variant",
+      "quantity": 1,
+      "unitPrice": 44.9,
+      "discount": 0,
+      "items": null
+    }
+  ],
+  "precio_compra_total": "44.90",
+  "navegador": "Opera",
+  "sistema_operativo": "Linux",
+  "tipo_usuario": "Recurrente",
+  "tiempo_promedio_pagina": 0,
+  "fuente_trafico": "Directo"
 }
 ]
