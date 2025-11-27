@@ -794,5 +794,125 @@
   "tipo_usuario": "Recurrente",
   "tiempo_promedio_pagina": 0,
   "fuente_trafico": "Directo"
+}, 
+{
+  "ip": "2600:387:f:4417::4",
+  "pais": "United States",
+  "fecha_hora_entrada": "2025-11-27 10:24:45",
+  "origen": "https://www.montaqueshops.com/",
+  "afiliado": "Ninguno",
+  "duracion_sesion_segundos": 0,
+  "tiempo_carga_pagina_ms": 0,
+  "nombre_comprador": "Alex Rodríguez Ramírez (Nombre de persona a entregar: Zoila Ramírez)",
+  "telefono_comprador": "9566606699",
+  "correo_comprador": "Alexx8087@gmail.com",
+  "direccion_envio": "Calle:Cristino Barreda #96-A %7 y 9",
+  "compras": [
+    {
+      "id": null,
+      "name": "Caja de Malta bucanero",
+      "type": "product",
+      "quantity": 1,
+      "unitPrice": 23.9,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Jamón",
+      "type": "product",
+      "quantity": 1,
+      "unitPrice": 3.10004,
+      "discount": 18.42,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Café Bryderk",
+      "type": "product",
+      "quantity": 2,
+      "unitPrice": 5.09996,
+      "discount": 13.56,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Plátano Macho x Unidad",
+      "type": "product",
+      "quantity": 10,
+      "unitPrice": 0.15,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Boniato x Lb",
+      "type": "product",
+      "quantity": 15,
+      "unitPrice": 0.4,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Frijoles negro",
+      "type": "product",
+      "quantity": 5,
+      "unitPrice": 2.1,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Arroz brasileño",
+      "type": "product",
+      "quantity": 5,
+      "unitPrice": 2.8000000000000003,
+      "discount": 20,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Azúcar 1kg",
+      "type": "product",
+      "quantity": 3,
+      "unitPrice": 2.1,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Papel Sanitario La Excelencia",
+      "type": "product",
+      "quantity": 3,
+      "unitPrice": 2.6,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": null,
+      "name": "Leche condensada Zivel",
+      "type": "product",
+      "quantity": 5,
+      "unitPrice": 2.9,
+      "discount": 0,
+      "items": null
+    },
+    {
+      "id": "group_Caja_de_Jugo_Lovely",
+      "name": "Caja de Jugo Lovely (Mango)",
+      "type": "variant",
+      "quantity": 1,
+      "unitPrice": 17.9,
+      "discount": 0,
+      "items": null
+    }
+  ],
+  "precio_compra_total": "115.70",
+  "navegador": "Safari",
+  "sistema_operativo": "MacOS",
+  "tipo_usuario": "Recurrente",
+  "tiempo_promedio_pagina": 0,
+  "fuente_trafico": "Directo"
 }
 ]
